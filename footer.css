@@ -1,0 +1,34 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer {
+    background-color: #24262b;
+    /* padding: 70px 0; */
+    border-radius: 50px;
+    margin: 30px;
+    height: 346px;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+
+    border-left: 2px solid rgb(255, 255, 255);
+    height: 150px;
+    margin-right: 1 px;
+    padding-right: 5px;
+}
+
+/* .footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+} */
+.footer-col p {
+    color: white;
+}
+
